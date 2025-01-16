@@ -1,5 +1,5 @@
 public class Temp {
-    public static Date GetCurrentDate(){
+    public static Date getCurrentDate(){
         
         Date currentDate = Date.Today();
         

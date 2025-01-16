@@ -9,7 +9,7 @@ public class TempTest {
 
     @isTest
     static void testGetCurrentDay() {
-        Date result = Temp.getCurrentDay();
+        Integer result = Temp.getCurrentDay();
         System.assertEquals(Date.today().day(), result, 
                             'The method should return the current day');
     }

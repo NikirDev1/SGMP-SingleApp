@@ -1,0 +1,19 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "SGMPDemoApp",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+    }
+  ],
+  "name": "SGMPDemo",
+  "namespace": "nik_0125",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "62.0",
+  "packageAliases": {
+    "SGMPDemoApp": "0HodM0000000eLdSAI"
+  }
+}

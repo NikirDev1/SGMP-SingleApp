@@ -13,4 +13,12 @@ public class Temp {
     public static Date getCurrentDate(){
         return Date.Today();
     }
+
+    /**
+     * @description : Retrieves the current day.
+     * @return      : The current day as a Integer format.
+    **/
+    public static Integer getCurrentDay(){
+        return Date.Today().day();
+    }
 }

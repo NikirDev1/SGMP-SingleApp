@@ -21,12 +21,4 @@ public class Temp {
     public static Integer getCurrentDay(){
         return Date.Today().day();
     }
-    
-    /**
-     * @description : Retrieves the current month.
-     * @return      : The current month as a Integer format.
-    **/
-    public static Integer getCurrentMonth(){
-        return Date.Today().month();
-    }
 }

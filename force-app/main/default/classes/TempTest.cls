@@ -18,6 +18,6 @@ public class TempTest {
     static void testGetCurrentMonth() {
         Integer result = Temp.getCurrentMonth();
         System.assertEquals(Date.today().month(), result, 
-                            'The method should return the current month');
+                            'The method should return the current month for date');
     }
 }

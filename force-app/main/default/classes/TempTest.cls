@@ -13,4 +13,11 @@ public class TempTest {
         System.assertEquals(Date.today().day(), result, 
                             'The method should return the current day');
     }
+    
+    @isTest
+    static void testGetCurrentMonth() {
+        Integer result = Temp.getCurrentMonth();
+        System.assertEquals(Date.today().month(), result, 
+                            'The method should return the current month');
+    }
 }
